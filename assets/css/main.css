@@ -178,7 +178,16 @@
   font-size: 1.0625rem;
 }
 
-@media (min-width: 785px) {
+@media (min-width: 768px) {
+  .navigation__signUpHeader {
+    padding-left: 6.1875rem;
+  }
+  .navigation__signUpBtn {
+    display: none;
+  }
+  .navigation__logoMenuPicture {
+    display: none;
+  }
   .navigation__menu {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -193,7 +202,8 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 92%;
+    width: 100%;
+    padding: 0 1.875rem 0 1.875rem;
   }
   .navigation__menuRight {
     display: -webkit-box;
@@ -260,6 +270,10 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .navigation__menuLeftLogo {
+    width: 10%;
+    max-width: 2.125rem;
   }
   .navigation__menuLeftLine {
     background-color: #008248;
